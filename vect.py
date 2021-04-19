@@ -29,3 +29,11 @@ print("vocabulary content:\n {}".format(vect.vocabulary_))
 bag_of_words = vect.transform(phrases)
 
 print(bag_of_words)
+
+
+print("bag_of_words as an array:\n {}".format(bag_of_words.toarray()))
+
+
+#list of all the unique words with their indices from bag_of_words
+vect.get_feature_names()
+
